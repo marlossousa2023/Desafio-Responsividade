@@ -1,0 +1,123 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin: 75px 50px 150px;
+}
+
+.link-header{
+    cursor: pointer;
+    margin-right: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color: #17233D;
+}
+
+
+.header-btn{
+    cursor: pointer;
+    width: 124px;
+    height: 51px;
+    background: #4CB538;
+    border: 1px solid #6FBF44;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    border-radius: 6px;
+}
+
+main{
+    display: flex;
+    height: 80vh ;
+}
+
+img{
+    width: 595.18px;
+    height: 500px;
+    margin: 0 84.82px 102px 100px;
+}
+
+h1{
+    margin-top: 150px;
+    width: 582;
+    height: 164px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p{
+    margin-top: 40px;
+    margin-bottom: 45px;
+    width: 493px;
+    height: 99px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+}
+
+.link-container{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen  and (max-width: 900px){
+
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .link-header{
+        display: none;
+    }
+
+    .header-btn{
+        display:block;
+        margin-left: 550px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .container-right{
+       display: block;
+       margin: 0 auto;
+       position: absolute;
+    }
+
+    h1{
+        display: block;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        height: 40px;
+        
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    img{
+        position: absolute;
+    }
+}

@@ -74,6 +74,11 @@ p{
     line-height: 27px;
     color: #6FBF44;
     cursor: pointer;
+
+}
+
+.link-container:hover{
+    opacity: .8;
 }
 
 @media screen  and (max-width: 900px){
